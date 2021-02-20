@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Login</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Sign in to your account">
+    <meta name="author" content="Ibiso Barimalaa">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Site Style -->
+    <link rel="stylesheet" href="site.css">
+    <link rel="shortcut icon" href="icon.svg" type="image/x-icon">
+
+    <!-- JQuery, Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="form-container py-4">
+        <form class="form-signin card d-flex flex-column justify-content-center shadow p-4" style="min-height: 90vh;">
+            <div class="text-center mb-4">
+                <a class="btn btn-haul">
+                    <img class="my-2" src="icon.svg" alt="" width="72" height="72">
+                </a>
+            </div>
+        
+            <div class="form-label-group">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="">
+                <label for="inputEmail">Username/Email</label>
+            </div>
+        
+            <div class="form-label-group">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+                <label for="inputPassword">Password</label>
+            </div>
+        
+            <div class="mb-3">
+                <p><a class="form-haul-link ml-2" href="#">Forgot Password?</a></p>
+            </div>
+            <button class="btn btn-lg btn-haul btn-block" type="submit">Log In</button>
+            <p class="mt-5 mb-3 text-muted text-center">Don't have an account? <a class="form-haul-link" href="#">Sign Up</a></p>
+        </form>
+    </div>
+</body>
